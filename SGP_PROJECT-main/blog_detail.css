@@ -1,0 +1,34 @@
+#blog_detail {
+    margin: 0;
+    padding: 0;
+}
+#blog_detail .blog_detail_container {
+    border: 2px solid red;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.blog_detail_container .blog_imgBx {
+    
+}
+
+.blog_imgBx img {
+    width: 500px;
+}
+
+.blog_detail_container .blog_detailBx {
+    width: 600px;
+}
+
+.blog_detailBx h2 {
+    font-size: 35px;
+    margin: 15px 0 25px;
+}
+.blog_detailBx p {
+    font-size: 17px;
+    margin: 15px 0 10px;
+}
